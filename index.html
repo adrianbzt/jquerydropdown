@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Dropdown</title>
+
+    <script type="text/javascript" src="jquery.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link type="text/css" rel="stylesheet" href="jquery.dropdown.css"/>
+    <script type="text/javascript" src="jquery.dropdown.js"></script>
+
+    <style>
+        div.jq-dropdown-open {
+            position: relative;
+            float: left;
+            width: 15%
+        }
+        div#jq-dropdown-2.jq-dropdown.jq-dropdown-tip {
+            left: 49%;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div data-jq-dropdown="#jq-dropdown-1" style="text-align: center">
+                <span> span 1</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div data-jq-dropdown="#jq-dropdown-2" style="text-align: center">
+                <span> span 2</span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div data-jq-dropdown="#jq-dropdown-3" style="text-align: center">
+                <span> span 3</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="jq-dropdown-1" class="jq-dropdown jq-dropdown-tip">
+    <ul class="jq-dropdown-menu">
+        <li><a href="#1">Item 1</a></li>
+        <li><a href="#2">Item 2</a></li>
+        <li><a href="#3">Item 3</a></li>
+        <li class="jq-dropdown-divider"></li>
+        <li><a href="#4">Item 4</a></li>
+        <li><a href="#5">Item 5</a></li>
+        <li><a href="#5">Item 6</a></li>
+    </ul>
+</div>
+
+<div id="jq-dropdown-2" class="jq-dropdown jq-dropdown-tip">
+    <ul class="jq-dropdown-menu">
+        <li><a href="#1">Item 1</a></li>
+        <li><a href="#2">Item 2</a></li>
+        <li><a href="#3">Item 3</a></li>
+        <li class="jq-dropdown-divider"></li>
+        <li><a href="#4">Item 4</a></li>
+        <li><a href="#5">Item 5</a></li>
+        <li><a href="#5">Item 6</a></li>
+    </ul>
+</div>
+<div id="jq-dropdown-3" class="jq-dropdown jq-dropdown-tip">
+    <ul class="jq-dropdown-menu">
+        <li><a href="#1">Item 1</a></li>
+        <li><a href="#2">Item 2</a></li>
+        <li><a href="#3">Item 3</a></li>
+        <li class="jq-dropdown-divider"></li>
+        <li><a href="#4">Item 4</a></li>
+        <li><a href="#5">Item 5</a></li>
+        <li><a href="#5">Item 6</a></li>
+    </ul>
+</div>
+</body>
+</html>
